@@ -37,7 +37,7 @@ We welcome contributions to the DOM Element Counter project. If you have an idea
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the GPLv3 license.
 
 
 ## Authors
