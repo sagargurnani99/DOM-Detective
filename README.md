@@ -1,8 +1,8 @@
+![Logo](https://github.com/sagargurnani99/DOM-Detective/blob/master/images/icon128.png)
+
 # DOM Detective
 
 This Chrome browser extension counts the total DOM elements on the current page and displays it in a convenient location on the web page.
-
-
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
