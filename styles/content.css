@@ -1,0 +1,14 @@
+#domDetectiveTotalElements {
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-family: cursive;
+    padding: 0px 5px;
+    z-index: 2147483647;
+}

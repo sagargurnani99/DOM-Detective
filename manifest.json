@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "DOM Detective",
+  "version": "1.0",
+  "description": "It provides a professional solution for tracking the number of Document Object Model (DOM) elements present on a web page. The extension accurately counts the total number of DOM elements and displays the result in an easily accessible location, located in the top-right corner of the page.",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "styles/content.css"
+      ],
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
