@@ -20,13 +20,17 @@ const DomDetective_enableDisableExtension = (extensionState) => {
 }
 
 const DomDetective_add = () => {
-	DomDetective_remove()
-
-	let totalDomEle = document.querySelectorAll('*').length
-	let totalDomEleDiv = document.createElement('div')
+	DomDetective_remove();
+  
+	let totalDomNodes = document.querySelectorAll('*').length
+	const totalDomEleDiv = document.createElement('div')
+	const logo = document.createElement('img')
+	const totalDomNodesText = document.createTextNode(totalDomNodes)
+	logo.src = chrome.runtime.getURL('images/icon32.png')
 	totalDomEleDiv.id = 'domDetectiveTotalElements'
-	totalDomEleDiv.innerText = `DOMs Detected: ${totalDomEle}`
-
+	totalDomEleDiv.appendChild(logo)
+	totalDomEleDiv.appendChild(totalDomNodesText)
+  
 	document.body.appendChild(totalDomEleDiv)
 }
 
